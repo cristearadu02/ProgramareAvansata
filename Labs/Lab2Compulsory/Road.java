@@ -1,6 +1,8 @@
 package Lab2Compulsory;
 
 import java.lang.Math;
+import java.util.Objects;
+
 public class Road {
     private float speedLimit;
     private float length;
@@ -63,5 +65,21 @@ public class Road {
                 ", source=" + source +
                 ", destination=" + destination +
                 '}';
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Road road = (Road) o;
+        return  Float.compare(road.getSpeedLimit(), getSpeedLimit()) == 0 &&
+                Float.compare(road.getLength(), getLength()) == 0 &&
+                getType() == road.getType() &&
+                Objects.equals(getSource(), road.getSource()) &&
+                Objects.equals(getDestination(), road.getDestination());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getSpeedLimit(), getLength(), getType(), getSource(), getDestination());
     }
 }

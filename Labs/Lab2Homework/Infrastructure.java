@@ -12,6 +12,13 @@ public class Infrastructure {
         this.name = name;
         edges = roads;
         vertices = locations;
+        for(Road i : edges)
+        {
+            if(i.equals(i) == true)
+            {
+                System.out.println("Error.");
+            }
+        }
     }
     public void setName(String name) {
         this.name = name;

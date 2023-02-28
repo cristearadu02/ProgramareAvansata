@@ -1,4 +1,7 @@
 package Lab2Homework;
+
+import java.util.Objects;
+
 public class Location {
     private String name;
     private float x,y;
@@ -45,6 +48,24 @@ public class Location {
                 ", y=" + y +
                 ", type=" + type +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        Location location = (Location) o;
+        return  Float.compare(location.getX(), getX()) == 0 &&
+                Float.compare(location.getY(), getY()) == 0 &&
+                Objects.equals(getName(), location.getName()) &&
+                Objects.equals(getType(), location.getType());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName(), getX(), getY(), getType());
     }
 }
 

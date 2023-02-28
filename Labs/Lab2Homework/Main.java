@@ -25,22 +25,6 @@ public class Main {
         Infrastructure Romania = new Infrastructure("Romania", roads, locations);
         System.out.println(Romania);
 
-    /*
 
-        Location myGym = new Location("World Class",170.98f, 250.89f, locType.GYM);
-        Location myShop = new Location("Lidl", 47.14722f, 27.59428f, locType.SHOP);
-
-        Road a1 = new Road(120f, roadType.HIGHWAY, myCity, myShop);
-        Road e2 = new Road(90f, roadType.EXPRESS, myShop, myAirport);
-        Road c1 = new Road(50f, roadType.COUNTRY, myCity, myGasStation);
-        Road f8 = new Road(30f, roadType.FORESTRY, myGasStation, myGym);
-
-
-        System.out.println(a1);
-        System.out.println(c1);
-        System.out.println(f8);
-        System.out.println(e2);
-
-     */
     }
 }
