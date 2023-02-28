@@ -1,3 +1,5 @@
+package Lab2Homework;
+
 import java.lang.Math;
 public class Road {
     private float speedLimit;

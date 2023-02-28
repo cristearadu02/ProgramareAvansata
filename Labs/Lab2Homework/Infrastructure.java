@@ -1,36 +1,41 @@
+package Lab2Homework;
+
 import java.util.ArrayList;
+
 public class Infrastructure {
-    private ArrayList<Road> roads;
+    private ArrayList<Road> edges;
+    private ArrayList<Location> vertices;
     private String name;
 
-    Infrastructure(String n, ArrayList<Road> r)
+    Infrastructure(String name, ArrayList<Road> roads, ArrayList<Location> locations)
     {
-        name = n;
-        roads = r;
+        this.name = name;
+        edges = roads;
+        vertices = locations;
     }
     public void setName(String name) {
         this.name = name;
     }
-    public void setRoads(ArrayList<Road> roads) {
-        this.roads = roads;
+    public void setEdges(ArrayList<Road> edges) {
+        this.edges = edges;
     }
     public String getName() {
         return name;
     }
-    public ArrayList<Road> getRoads() {
-        return roads;
+    public ArrayList<Road> getEdges() {
+        return edges;
     }
 
     @Override
     public String toString() {
         return "Infrastructure{" +
-                "roads=" + roads +
+                "edges=" + edges +
                 ", name='" + name + '\'' +
                 '}';
     }
     public void printInfo()
     {
-        for(Road i : roads)
+        for(Road i : edges)
         {
             System.out.println(i);
         }

@@ -1,3 +1,5 @@
+package Lab2Homework;
+
 public class City extends locType
 {
     private int cityGrade;

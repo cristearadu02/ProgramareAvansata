@@ -1,3 +1,4 @@
+package Lab2Homework;
 public abstract class locType {
     private int capacity;
 

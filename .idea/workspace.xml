@@ -1,39 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29657c40-46ae-4eec-bc57-ac6858638a45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1Bonus/Lab1Bonus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1Compulsory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1Homework/Lab1Homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Compulsory/Lab2Compulsory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Compulsory/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Compulsory/Road.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Compulsory/locType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Compulsory/roadType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Airport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Highway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Infrastructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Road.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/locType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/roadType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgramareAvansata.iml" afterDir="false" />
+    <list default="true" id="29657c40-46ae-4eec-bc57-ac6858638a45" name="Changes" comment="Test Commit via Intelij">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Express.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Compulsory/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Compulsory/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Compulsory/locType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Compulsory/locType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Compulsory/roadType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Compulsory/roadType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/GasStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/Highway.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Highway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/Infrastructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Infrastructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/locType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/locType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab2Homework/roadType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2Homework/roadType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dc78c2c2-dbed-4bb1-a38a-03584f18490a" />
+        <option name="url" value="https://github.com/cristearadu02/ProgramareAvansata.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,6 +81,21 @@
       <option name="presentableId" value="Default" />
       <updated>1677609720864</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test Commit via Intelij">
+      <created>1677610409558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677610409558</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test Commit via Intelij">
+      <created>1677610507202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677610507202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Commit via Intelij" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Commit via Intelij" />
   </component>
 </project>

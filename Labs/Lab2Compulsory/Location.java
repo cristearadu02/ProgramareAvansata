@@ -1,5 +1,4 @@
 package Lab2Compulsory;
-
 public class Location {
     private String name;
     private float x,y;

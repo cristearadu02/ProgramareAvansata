@@ -1,5 +1,4 @@
 package Lab2Compulsory;
-
 public enum locType {
     CITY,
     AIRPORT,

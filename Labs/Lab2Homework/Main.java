@@ -1,19 +1,29 @@
+package Lab2Homework;
+
 import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
 
         Location myCity = new Location("Iasi", 47.1622f, 27.5889f, new City(10000, 9));
-        System.out.println(myCity);
         Location myGasStation = new Location("OMV",123.70f,93.2f, new GasStation(25, 7.39F));
-        System.out.println(myGasStation);
         Location myAirport = new Location("Otopeni", 290.5f, 120.90f, new Airport(1200, 10));
-        System.out.println(myAirport);
+
+
         Road a1 = new Road(120f, new Highway(10, "cement"), myCity, myAirport);
-        System.out.println(a1);
+        Road e2 = new Road(90f, new Express(8, "basalt"), myGasStation, myAirport);
 
-        ArrayList<Road> arr;
+        ArrayList<Road> roads = new ArrayList<Road>();
+        roads.add(a1);
+        roads.add(e2);
 
+        ArrayList<Location> locations = new ArrayList<Location>();
+        locations.add(myCity);
+        locations.add(myGasStation);
+        locations.add(myAirport);
+
+        Infrastructure Romania = new Infrastructure("Romania", roads, locations);
+        System.out.println(Romania);
 
     /*
 

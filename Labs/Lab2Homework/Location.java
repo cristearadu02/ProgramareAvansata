@@ -1,3 +1,4 @@
+package Lab2Homework;
 public class Location {
     private String name;
     private float x,y;

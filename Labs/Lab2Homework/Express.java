@@ -1,10 +1,10 @@
 package Lab2Homework;
 
-public class Highway extends roadType
-{
+public class Express extends roadType{
+
     private String material;
 
-    Highway(int grade ,String mat)
+    Express(int grade ,String mat)
     {
         this.setRoadGrade(grade);
         material = mat;
@@ -17,7 +17,7 @@ public class Highway extends roadType
     }
     @Override
     void printInfo() {
-        System.out.println("HIGHWAY");
+        System.out.println("EXPRESS");
     }
 
     @Override

@@ -1,3 +1,5 @@
+package Lab2Homework;
+
 public class Airport extends locType {
     private int airportGrade;
 

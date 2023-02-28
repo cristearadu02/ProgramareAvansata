@@ -1,3 +1,4 @@
+package Lab2Homework;
 public class GasStation extends locType{
 
     private float gasPrice;
