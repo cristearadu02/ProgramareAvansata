@@ -82,4 +82,5 @@ public class Road {
     public int hashCode() {
         return Objects.hash(getSpeedLimit(), getLength(), getType(), getSource(), getDestination());
     }
+
 }
