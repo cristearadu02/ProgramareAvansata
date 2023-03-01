@@ -16,6 +16,7 @@ public class Main {
         ArrayList<Road> roads = new ArrayList<Road>();
         roads.add(a1);
         roads.add(e2);
+        //tralala
 
         ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(myCity);
