@@ -90,7 +90,16 @@ public class Infrastructure {
     {
         return 0f;
     }
-    public Road getR(String name)
+    public Road getR(String name, int index)
+    {
+        for(int i = index; i<edges.size(); i++)
+        {
+            if(edges.get(i).getSource() == name)
+                return edges.get((i));
+        }
+        return null;
+    }
+    public Road getRaux(String name)
     {
         for(int i = 0; i<edges.size(); i++)
         {
@@ -99,10 +108,20 @@ public class Infrastructure {
         }
         return null;
     }
-    public boolean canGo(Location source, Location destination)
+    public boolean traverse(Road aux, Location destination)
     {
-        if(source.equals(destination) == true)
+        while (aux != null && aux.getDestination() != destination.getName()) {
+            aux = getRaux(aux.getDestination());
+        }
+
+        if (aux != null && aux.getDestination() == destination.getName()) {
             return true;
+        }
+        return false;
+    }
+
+    public boolean isValid(Location source, Location destination)
+    {
         boolean sourceExists = false;
         boolean destionationExists = false;
         for(Location i : vertices)
@@ -112,12 +131,19 @@ public class Infrastructure {
             if(i.getName() == destination.getName())
                 destionationExists = true;
         }
-
         if(sourceExists == true && destionationExists == true)
+            return true;
+        return false;
+    }
+    public boolean canGo(Location source, Location destination)
+    {
+        if(this.isValid(source,destination) == true)
         {
-
             for(Road i : edges)
             {
+                if(source.equals(destination) == true)
+                    return true;
+                int index = 0, prev = 0;
                 if(i.getSource() == source.getName())
                 {
                     if(i.getDestination() == destination.getName())
@@ -126,15 +152,20 @@ public class Infrastructure {
                     }
                     else
                     {
-                        Road aux = getR(i.getDestination());
+                        Road aux = getR(i.getDestination(), index);
+                        index = edges.indexOf(aux);
 
-                        while (aux != null && aux.getDestination() != destination.getName()) {
-                            aux = getR(aux.getDestination());
+                        while(index != prev && aux!=null)
+                        {
+                            prev = index;
+                            index++;
+                            boolean verify = traverse(aux, destination);
+                            if(verify == true)
+                                return true;
+                            aux = getR(i.getDestination(), index);
+                            index = edges.indexOf(aux);
                         }
 
-                        if (aux != null && aux.getDestination() == destination.getName() ) {
-                            return true;
-                        }
                     }
                 }
             }
