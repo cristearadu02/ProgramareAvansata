@@ -49,8 +49,10 @@ public class Main {
 
          Solution sol = new Solution(Romania);
 
-         sol.dijkstra(Braila, Bucuresti);
-         sol.dijkstra(Bucuresti, Iasi);
+         sol.fastestPath(Braila, Bucuresti);
+         sol.shortestPath(Bucuresti, Iasi);
+         sol.fastestPath(Bucuresti, Iasi);
 
+         Object s = new Object();
     }
 }

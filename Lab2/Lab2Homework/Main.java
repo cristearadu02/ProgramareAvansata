@@ -38,7 +38,8 @@ public class Main {
         System.out.println(Romania);
 
         System.out.println(Romania.isValid(Madrid, Iasi));
-        System.out.println(Romania.canGo(Bucuresti, Iasi));
+        System.out.println(Romania.isValid(Bucuresti, Iasi));
+        System.out.println(Romania.existsPath(Bucuresti, Iasi));
 
     }
 }

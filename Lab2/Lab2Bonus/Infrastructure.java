@@ -156,6 +156,16 @@ public class Infrastructure {
         }
         return 0;
     }
+
+    public float calculateSpeed(Location a, Location b)
+    {
+        for(Road i : edges)
+        {
+            if(i.getSource() == a.getName() && i.getDestination() == b.getName())
+                return i.getLength() / i.getSpeedLimit();
+        }
+        return 0;
+    }
     public ArrayList<Location> getVertices() {
         return vertices;
     }
