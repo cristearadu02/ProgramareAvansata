@@ -48,6 +48,9 @@ public class Main {
         network.addRelationship(person1, person2, "tovarasi");
         network.addRelationship(company2,company3, "partenere");
 
+        network.calculateImportance(programmer1);
+        network.calculateImportance(new Programmer("Andrew", LocalDate.of(2000, 10, 10), 2750, ProgrammerType.MID));
+
         System.out.println(network);
     }
 }

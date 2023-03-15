@@ -10,6 +10,17 @@ public class Network {
     {
         this.nodes = nodes;
     }
+
+    public void calculateImportance(Node toCalculate)
+    {
+        if(nodes.contains(toCalculate) == true)
+        {
+            System.out.println("Importance of node " + toCalculate.getName() + " is " + toCalculate.calculateImportance());
+        }
+        else {
+            System.out.println("Invalid node.");
+        }
+    }
     public void addRelationship(Node base, Node newRelation, String relation)
     {
         if(nodes.contains(base) == true)
@@ -32,7 +43,7 @@ public class Network {
     @Override
     public String toString() {
 
-        Collections.sort(nodes, Collections.reverseOrder(Comparator.comparingInt(Node::calculateImportance))); // altfel da eroare
+        Collections.sort(nodes, Collections.reverseOrder(Comparator.comparingInt(Node::calculateImportance)));
 
         return "Network{\n" +
                 "nodes=" + nodes +
